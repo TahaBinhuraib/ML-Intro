@@ -13,7 +13,7 @@ k-NN(k- Nearest Neighbors) is a supervised machine learning algorithm that is ba
  
 
 $$
-\lt x^{i}, y^{i}\gt \subseteq D 
+\lt x^{i}, y^{i}\gt \in D 
 $$
 
 ### Algorithm for 1-NN
