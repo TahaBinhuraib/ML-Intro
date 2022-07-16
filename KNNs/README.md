@@ -75,8 +75,12 @@ $$
 Let’s consider *k* to be equal to *5*
 
 $$
-D_k = [\lt x^{1}, f(x^{1}) \gt,... ,\lt x^{k}, f(x^{k}) \gt]\\
-h(x^{q}) = \arg\max_{y\in (1,...,t)}\sum_{i=1}^{k}\delta(y, f(x^{i}))\\\
+D_k = [\lt x^{1}, f(x^{1}) \gt,... ,\lt x^{k}, f(x^{k}) \gt]
+$$
+$$
+h(x^{q}) = \arg\max_{y\in (1,...,t)}\sum_{i=1}^{k}\delta(y, f(x^{i}))
+$$
+$$
 delta(i, j) =\begin{cases}1 \qquad i = j \\0 \qquad i \ne j\end{cases}\qquad i,j 
 $$
 
@@ -131,6 +135,8 @@ In ML we have options that can be though as algorithm settings. These options ar
 ## Distance-weighted kNN
 
 $$
-h(x^{t}) = \arg\max_{j\in(1,...,p)}\sum_{i=1}^{k}w^{i}\delta(j, f(x^{i}]))\\
+h(x^{t}) = \arg\max_{j\in(1,...,p)}\sum_{i=1}^{k}w^{i}\delta(j, f(x^{i}]))
+$$
+$$
 w^{i} = \frac{1}{d(x^{i}, x^{t})^{2}}
 $$
