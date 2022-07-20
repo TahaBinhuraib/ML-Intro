@@ -9,7 +9,7 @@ A repository containing detailed notes, codes, and other supplementary materials
 ## Table of Contents
 
 - [KNN](./KNNs/)
-
+- [Preprocessing](./data_preprocessing/)
 ## Contributing
 Please feel free to contribute. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. My goal is to manage a repositor that is comprehensive in nature, and easy to understand for beginners. 
 
