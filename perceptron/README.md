@@ -8,7 +8,7 @@ In machine learning, the perceptron is an algorithm for supervised learning of b
 </p>
 
 ## The Perceptron Learning Rule
-Net output
+### Net output
 $$
 f_{\theta} (\sum_{i=1}^{m}x_{i}w_{i}) = \hat{y}
 $$
