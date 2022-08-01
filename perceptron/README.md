@@ -13,7 +13,7 @@ $$
 f_{\theta} (\sum_{i=1}^{m}x_{i}w_{i}) = \hat{y}
 $$
 
-Threshold activation function
+## Threshold activation function
 <p align="center">
   <img src="images/ANN_Unit_step.png" />
 </p>
@@ -24,16 +24,16 @@ Threshold activation function
 * **If incorrect, scenario b):** If output is 1 and target is 0, *subtract input vector from weight vector*
 
 
-**Net output** For each point in the dataset
+### Net output For each point in the dataset
 $$
 \hat{y^{[i]}} := \sigma(x^{[i]T}w)
 $$
-**Error**
+### Error
 $$
 err := (y^{[i]}-\hat{y^{[i]}})
 $$
 
-**Update rule**
+### Update rule
 $$
 w:=w+err*x^{[i]}
 $$
